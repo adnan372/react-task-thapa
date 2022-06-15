@@ -1,0 +1,12 @@
+.greet {
+    color: rgb(130, 1, 1);
+    border : 5px solid rgb(252, 115, 115);
+    /* background-color: rgb(252, 115, 115); */
+    padding: 15px 10px;
+    margin-top: 15px;
+    /* max-width: 300px; */
+}
+/* ReactOM.render(
+    <></> , document.getElementByI('root')
+    
+) */
