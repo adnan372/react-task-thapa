@@ -1,12 +1,13 @@
 .box {
     text-align: center;
-    height: 850px;
+    height: 850px; 
     width: 100%;
     background-color: black;
     border-top: 12px solid rgb(81, 81, 81);
     /* border-bottom: 15px solid grey; */
     
 }
+
 .headings {
     margin-top: 75px;
     
@@ -23,3 +24,8 @@
 .nflximg {
     background-color: black;
 }
+@media only screen and (max-width: 400px) {
+    .nximg {
+        width: 100%;
+    }
+  }

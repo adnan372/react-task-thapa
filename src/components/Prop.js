@@ -10,7 +10,7 @@ function Prop( props) {
         <div className="box">
             <h2 className="headings">{props.heading}</h2>
             <p className="detail">{props.detail}</p>
-            <img src={props.imgsrc} alt="mypic" />
+            <img className='nximg' src={props.imgsrc} alt="mypic" />
         </div>
 
     </section>
