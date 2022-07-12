@@ -1,7 +1,10 @@
+import React from 'react';
 import './App.css';
 import Covid from './components/Covid';
 import Timer from './components/Timer';
 import Prop from './components/Prop';
+import IncNum from './components/IncNum';
+import CurrentTime from './components/CurrentTime';
 
 function App() {
   return (
@@ -35,7 +38,10 @@ function App() {
     detail= " Let the kids go on an adventure with your favourite charecters just for them - free with your membership "
     imgsrc="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/kidsValueProp.png" 
     />
-    
+    <h2>Task-4</h2>
+    <CurrentTime/>
+    <h2>Task-5</h2>
+    <IncNum/>
     </center>
     </section>
     </>
